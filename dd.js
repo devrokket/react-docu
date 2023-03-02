@@ -14,11 +14,11 @@ function formatName(user) {
     lastName: 'Byeongrok'
   };
   
-  const element = (
-    <h1>
-      Hello, {formatName(user)}!
-     </h1>
-  );
+  const element React.createElement (
+    'h1',
+    {className: 'greeting'},
+    'hello, world! haha'
+    );
   
   const root = ReactDOM.createRoot(document.getElementById('element'));
   root.render(element);
